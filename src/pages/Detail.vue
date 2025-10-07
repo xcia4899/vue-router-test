@@ -7,6 +7,8 @@
 </template>
 
 <script setup lang="ts">
+// import { useRoute } from 'vue-router';
+// let route = useRoute();
 defineProps<{
   id: string;
   title: string;
